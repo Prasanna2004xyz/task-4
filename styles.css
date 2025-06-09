@@ -1,1 +1,63 @@
-body {\n    font-family: Arial, sans-serif;\n    margin: 0;\n    padding: 0;\n}\nheader {\n    background: #333;\n    color: white;\n}\nnav ul {\n    display: flex;\n    list-style: none;\n    padding: 10px;\n}\nnav ul li {\n    margin: 0 15px;\n}\nnav a {\n    color: white;\n    text-decoration: none;\n}\n.container {\n    display: flex;\n    padding: 20px;\n}\n.column {\n    flex: 1;\n    margin: 10px;\n}\n.responsive-image {\n    max-width: 100%;\n    height: auto;\n}\n@media (max-width: 768px) {\n    nav ul {\n        flex-direction: column;\n        padding: 0;\n    }\n    nav ul li {\n        margin: 5px 0;\n    }\n    .container {\n        flex-direction: column;\n    }\n    h1 {\n        font-size: 1.5rem;\n    }\n    p {\n        font-size: 0.9rem;\n    }\n}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.column {
+    flex: 1;
+    margin: 10px;
+}
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+}
